@@ -39,7 +39,6 @@ app.get('/post/:id', (req, res) => {
   })[0]
   res.render('post', {
     author: post.author,
-    title: post.author,
     title: post.title,
     body: post.body
   })
